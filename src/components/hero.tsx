@@ -15,18 +15,14 @@ export function SpotlightPreview() {
             className="-top-40 left-0 md:left-60 md:-top-20"
             fill="white"
           />
-          <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
-            <h1 className="text-7xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-              <span className="text-[150px]">Aramesh</span> <br /> Premium
-              Rentals Services
+            <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
+            <h1 className="text-5xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+              <span className="text-[80px] md:text-[150px]">Aramesh</span> <br /> Premium Rentals Services
             </h1>
-            <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-              Aramesh offers serene and stylish short-term rentals, providing a
-              perfect escape for travelers seeking comfort. Our thoughtfully
-              designed spaces blend modern elegance with a cozy ambiance,
-              ensuring a relaxing stay.
+            <p className="mt-4 font-normal text-sm md:text-base text-neutral-300 max-w-lg text-center mx-auto">
+              Aramesh offers serene and stylish short-term rentals, providing a perfect escape for travelers seeking comfort. Our thoughtfully designed spaces blend modern elegance with a cozy ambiance, ensuring a relaxing stay.
             </p>
-          </div>
+            </div>
         </div>
         <br />
         <div className="flex w-full items-center justify-evenly">
