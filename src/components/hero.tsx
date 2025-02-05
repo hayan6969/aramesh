@@ -7,16 +7,17 @@ import { ShimmerButtonDemo } from "./shimmerButton";
 export function SpotlightPreview() {
   return (
     <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
-      <div className="flex flex-col items-center justify-center w-full h-full">
+      <div className="flex flex-col items-center justify-center w-full h-50%">
+        <br />
         <AnimatedShinyTextDemo />
         <br />
-        <div>
+        <div >
           <Spotlight
-            className="-top-40 left-0 md:left-60 md:-top-20"
+            className="-top-10 left-0 md:left-60 md:-top-20"
             fill="white"
           />
-            <div className="p-4 max-w-7xl mx-auto relative z-10 w-full pt-20 md:pt-0">
-            <h1 className="text-5xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+            <div className="p-1 max-w-7xl mx-auto relative z-10 w-full  md:pt-0">
+            <h1 className="text-2xl md:text-7xl font-bold text-center pt-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
               <span className="text-[80px] md:text-[150px]">Aramesh</span> <br /> Premium Rentals Services
             </h1>
             <p className="mt-4 font-normal text-sm md:text-base text-neutral-300 max-w-lg text-center mx-auto">
@@ -25,7 +26,7 @@ export function SpotlightPreview() {
             </div>
         </div>
         <br />
-        <div className="flex w-full items-center justify-evenly">
+        <div className="flex mb-[120px] w-full items-center justify-evenly">
           <a href="http://airbnb.com.sg/h/aramesh" target="_blank">
             {" "}
             <ShimmerButtonDemo text="Air Bnb" />
