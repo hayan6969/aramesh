@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local'
+
+const myFont = localFont({ src: './fonts/CabinetGrotesk-Variable.woff2' })
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="dark" lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${myFont.className} bg-black antialiased`}
       >
         {children}
       </body>
